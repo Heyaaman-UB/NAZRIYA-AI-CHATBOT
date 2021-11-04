@@ -39,15 +39,15 @@ async def type_and_send(message):
     await message._client.send_chat_action(chat_id, "typing")
     response, _ = await gather(lunaQuery(query, user_id), sleep(2))
     if "Luna" in response:
-        responsee = response.replace("Luna", "Nazriya")
+        responsee = response.replace("Luna", "Kazuko")
     else:
         responsee = response
     if "Aco" in responsee:
-        responsess = responsee.replace("Aco", "Nazriya")
+        responsess = responsee.replace("Aco", "Kazuko")
     else:
         responsess = responsee
-    if "Who is Nazriya?" in responsess:
-        responsess2 = responsess.replace("Who is Nazriya?", "JINNS sister")
+    if "Who is Kazuko?" in responsess:
+        responsess2 = responsess.replace("Who is Kazuko?", "Me")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
@@ -70,7 +70,7 @@ async def chat(_, message):
             return
     else:
         match = re.search(
-            "[.|\n]{0,}iris[.|\n]{0,}",
+            "[.|\n]{0,}Kazuko[.|\n]{0,}",
             message.text.strip(),
             flags=re.IGNORECASE,
         )
@@ -86,14 +86,14 @@ async def chat(_, message):
 )
 async def chatpm(_, message):
     if not message.text:
-        await message.reply_text("Ufff... Ignoring ....👻")
+        await message.reply_text("Ufff... Ignoring ....")
         return
     await type_and_send(message)
 
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hai, its me Nazriya❣️")
+    await message.reply_text("Hi, I'm Kazuko")
 
 
 async def main():
