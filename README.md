@@ -18,7 +18,7 @@
 
 ##### Deploy 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MR-JINN-OF-TG/NAZRIYA-AI-CHATBOT/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Heyaaman-UB/NAZRIYA-AI-CHATBOT/tree/main)
 
 
 
