@@ -3,7 +3,7 @@
   "description": "AI chat bot of nazriya",
   "logo": "https://telegra.ph/file/b900a57bdab62e4c1e223.jpg",
   "keywords": ["aichatbot", "chatbot", "telegram"],
-  "repository": "https://github.com/MR-JINN-OF-TG/NAZRIYA-AI-CHATBOT",
+  "repository": "https://github.com/Heyaaman-UB/NAZRIYA-AI-CHATBOT",
   "buildpacks": [{
   "url": "heroku/python"
   }],
